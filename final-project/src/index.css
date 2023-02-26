@@ -1,0 +1,182 @@
+/* Navbar/Top of Page CSS */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: rgb(177, 202, 177);
+  display: flex;
+  text-align: justify;
+  justify-content: space-between;
+}
+
+.book-club {
+  font-size: 45px;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  padding: 20px;
+  margin-left: -15px;
+}
+
+.navbar-ul-list {
+  font-family: 'Playfair Display', serif;
+  list-style: none;
+  padding: 35px 15px;
+  display: inline-flex;
+}
+
+.link-list {
+  margin-right: 5px;
+}
+
+a:link {
+  color: rgb(177, 202, 177);
+  background-color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  border: 3px solid white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+a:visited {
+  color: rgb(177, 202, 177);
+  border: 3px solid white;
+}
+
+li a:hover {
+  color: black;
+}
+
+/* Home Page CSS */
+#entire-card-decks {
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#bottom-row {
+  margin-top: 60px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#home-book-image {
+  height: 200px;
+  width: auto;
+  margin-top: 145px;
+}
+
+#home-book-image2 {
+  height: 250px;
+  width: auto;
+  float: right;
+  margin-top: 120px;
+}
+
+/* Non-Fiction Page CSS */
+.nonfiction-book-test {
+  border: 2px solid black;
+  width: fit-content;
+}
+
+#nonfiction-page-h2 {
+  text-align: center;
+  margin-top: 4px;
+  font-family: 'Playfair Display', serif;
+  color: rgb(177, 202, 177);
+}
+
+/* Romantic Page CSS */
+.woman-window-book2 {
+  margin-left: 40px;
+}
+
+#romantic-page-h2 {
+  text-align: center;
+  margin-top: 4px;
+  font-family: 'Playfair Display', serif;
+  color: rgb(177, 202, 177);
+}
+
+#thriller-page-h2 {
+  text-align: center;
+  margin-top: 4px;
+  font-family: 'Playfair Display', serif;
+  color: rgb(177, 202, 177);
+}
+
+/* Welcome Header hr */
+.hr-style {
+  border: 1px solid rgb(86, 158, 86);
+  width: 50%;
+  margin: auto;
+}
+
+/* Comment Section CSS */
+#submit-btn {
+  margin-top: 4px;
+  margin-left: auto;
+}
+
+/* AddApiComment.js CSS */
+#api-add-button {
+  margin-top: 4px;
+}
+
+/* Book Description */
+.book-description {
+  text-align: center;
+}
+
+/* DeleteAndEdit.js CSS */
+#delete-button {
+  margin-left: 2px;
+}
+
+/* Codes */
+#card-test {
+  width: 18rem;
+  height: 15rem;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+#book-test {
+  height: 300px;
+  width: auto;
+  border-radius: 6px;
+}
+
+#card-test-book {
+  margin-top: 40px;
+  margin-left: 10px;
+  display: flex;
+  margin: 1vmin auto;
+  padding: 3vmin;
+  width: var(--width);
+  height: var(--height);
+  text-align: center;
+}
+
+.home-page-card-link {
+  background-color: black;
+  text-align: center;
+}
+
+.name-comment-section{
+  text-align: left;
+}
+
+.comment-data {
+  padding: 10px;
+}
+
+#name-style {
+  font-weight: bold;
+}
